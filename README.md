@@ -1,3 +1,3 @@
-# hello-world
-My "hello-world" repository
-Some changes in Readme file
+# Various exercises
+Repository where I collect my solutions to various exercises
+
