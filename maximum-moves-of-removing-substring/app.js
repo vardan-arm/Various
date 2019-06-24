@@ -22,4 +22,4 @@ function maxMoves(s, t) {
 // Edge case:   maxMoves('ababaa', 'aba')
 
 let res = maxMoves('ababaa', 'aba');
-console.log(res);
+console.log(res); // prints "2"
