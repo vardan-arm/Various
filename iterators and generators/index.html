@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iterators and Generators</title>
+</head>
+<body>
+<div style="margin:auto 32px">
+    <div>
+        <div>Iterator with ES5 class (`function`) and iterator</div>
+        <div>
+            <button onclick="addItemToMyDictByIterator()">Add item</button>
+            <span style="margin-left: 16px">
+            <button onclick="printItemsOfMyDictByIterator()">Print items</button>
+        </span>
+        </div>
+    </div>
+
+    <hr style="margin: 32px auto" />
+
+    <div>
+        <div>Iterator with ES5 class (`function`) and generator</div>
+        <div>
+            <button onclick="addItemToMyDictByGenerator()">Add item</button>
+            <span style="margin-left: 16px">
+            <button onclick="printItemsOfMyDictByGenerator()">Print items</button>
+        </span>
+        </div>
+
+    </div>
+    <hr style="margin: 32px auto" />
+
+    <div>
+        <div>Iterator with ES6 `class`</div>
+        <div>
+            <button onclick="addItemToMyDictByClass()">Add item</button>
+            <span style="margin-left: 16px">
+            <button onclick="printItemsOfMyDictByClass()">Print items</button>
+        </span>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
