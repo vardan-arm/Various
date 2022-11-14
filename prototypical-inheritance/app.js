@@ -15,7 +15,7 @@ Parent.prototype.printName = function () {
 }
 
 function Child(args) {
-  // In the child function’s constructor, call the parent’s constructor with “Object.call(...)”
+  // In the child function’s constructor, call the parent’s constructor with `Object.call(...)` (call super constructor)
   // (pass any required parameter to it), so we will have the logic from parent’s constructor executed here.
   Parent.call(this, args);
   this.name = 'child';
