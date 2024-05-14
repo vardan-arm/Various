@@ -53,9 +53,6 @@ Class1.prototype.printVal = function () {
 
 function Class2() {
   Class1.call(this);
-  this.setVal = function (val) {
-    this.val = val;
-  };
 }
 
 Class2.prototype = Object.create(Class1.prototype);
