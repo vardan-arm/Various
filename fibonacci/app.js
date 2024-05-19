@@ -36,6 +36,27 @@ console.log(fibonacciCached(5));  // 5 // fluently calculated up to [n=8925, res
 
 
 /*
+* With plain `for` loop
+*/
+function fibIter(n) {
+    if (n <= 0) {
+        return 0;
+    }
+    if (n === 1) {
+        return 1;
+    }
+    let prev = 0;
+    let next = 1;
+    let number = 1;
+    
+    for (let i = 2; i <= n; i++) {
+        number = prev + next;
+        [prev, next] = [next, prev + next];
+    }
+    return number;
+}
+
+/*
 * Return an Array with the Fibonacci sequence
 * */
 
