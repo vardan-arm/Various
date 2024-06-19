@@ -42,6 +42,7 @@ objChild2 = new Child2('child lvl2 param');
 
 /*
 * Old approach (where the `prototype` and the constructor of the child are overwritten and then restored)
+* DON'T DO THIS. See details here - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain#building_longer_inheritance_chains.
 * */
 function Class1() {
   this.val = null;
